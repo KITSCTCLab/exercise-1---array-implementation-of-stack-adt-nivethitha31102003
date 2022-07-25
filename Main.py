@@ -8,14 +8,14 @@ class Stack:
         # Write code here
         if len(self.items)==0:
             return true
-        else
+        else:
             return false
 
     def is_full(self):
         # Write code here
-         if len(self.items)!=0
+         if len(self.items)!=0:
             return true
-        else
+        else:
             return false
     def push(self, data):
         if not self.is_full():
